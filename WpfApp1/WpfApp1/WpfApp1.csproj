@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Align_Center.png" />
+    <None Remove="Resources\Align_Justify.png" />
+    <None Remove="Resources\Align_Left.png" />
+    <None Remove="Resources\Align_Right.png" />
+    <None Remove="Resources\Font_Bold.png" />
+    <None Remove="Resources\Font_Italic.png" />
+    <None Remove="Resources\Font_Underscore.png" />
+    <None Remove="Resources\Insert_Image.png" />
+    <None Remove="Resources\Menu_Back.png" />
+    <None Remove="Resources\Menu_Save.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Align_Center.png" />
+    <Resource Include="Resources\Align_Justify.png" />
+    <Resource Include="Resources\Align_Left.png" />
+    <Resource Include="Resources\Align_Right.png" />
+    <Resource Include="Resources\Font_Bold.png" />
+    <Resource Include="Resources\Font_Italic.png" />
+    <Resource Include="Resources\Font_Underscore.png" />
+    <Resource Include="Resources\Insert_Image.png" />
+    <Resource Include="Resources\Menu_Back.png" />
+    <Resource Include="Resources\Menu_Save.png" />
+  </ItemGroup>
+
+</Project>
